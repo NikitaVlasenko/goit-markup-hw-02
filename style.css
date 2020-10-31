@@ -213,3 +213,58 @@ line-height: 24px;
 letter-spacing: 0.03em;    
 color: #757575;    
 }
+.wedo {
+position: absolute;
+width: 376px;
+height: 42px;
+left: 612px;
+top: 969px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.coding {
+position: absolute;
+width: 370px;
+height: 294px;
+left: 215px;
+top: 1061px;
+background: url(close-up-image-programer-working-his-desk-office_1098-18707.jpg);
+mix-blend-mode: normal;
+}
+.design {
+position: absolute;
+width: 370px;
+height: 294px;
+left: 615px;
+top: 1061px;
+background: url(web-ui-designers-are-developing-application-smartphones-team-creators-is-working-interface-mobile-phones_8119-2713.jpg);
+}
+.colorise {
+position: absolute;
+width: 370px;
+height: 294px;
+left: 1015px;
+top: 1061px;
+background: url(creative-artist-web-design-with-working-colour-selection-graphic-tablet_35674-1119.jpg);
+}
+.ourteam {
+position: absolute;
+width: 264px;
+height: 42px;
+left: 668px;
+top: 1543px; 
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;    
+color: #212121;    
+}
