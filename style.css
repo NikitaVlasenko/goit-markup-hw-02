@@ -60,7 +60,7 @@ position: absolute;
 width: 696px;
 height: 120px;
 left: 452px;
-top: 280px;
+top: 200px;
 font-family: Roboto;
 font-style: normal;
 font-weight: 900;
@@ -116,4 +116,31 @@ line-height: 16px;
 letter-spacing: 0.02em;
 color: #212121;
 text-decoration: none;
+}
+.button {
+position: absolute;
+width: 200px;
+height: 50px;
+left: 700px;
+top: 430px;  
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+position: absolute;
+width: 136px;
+height: 30px;
+left: 732px;
+top: 440px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 30px;
+/* identical to box height, or 187% */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+margin-top: 30px;
 }
