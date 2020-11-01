@@ -168,6 +168,14 @@ line-height: 24px;
 letter-spacing: 0.03em;
 color: #757575;
 }
+.h {
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
 .punktuality {
 position: absolute;
 width: 270px;
@@ -213,21 +221,6 @@ line-height: 24px;
 letter-spacing: 0.03em;    
 color: #757575;    
 }
-.wedo {
-position: absolute;
-width: 376px;
-height: 42px;
-left: 612px;
-top: 969px;
-font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 36px;
-line-height: 42px;
-text-align: center;
-letter-spacing: 0.03em;
-color: #212121;
-}
 .coding {
 position: absolute;
 width: 370px;
@@ -253,6 +246,22 @@ left: 1015px;
 top: 1061px;
 background: url(creative-artist-web-design-with-working-colour-selection-graphic-tablet_35674-1119.jpg);
 }
+.igor {
+position: absolute;
+width: 270px;
+height: 368px;
+left: 215px;
+top: 1635px;
+background: #FFFFFF;
+/* material shadow v1 */
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+}
+.igor > img {
+width: 270px;
+height: 260px;
+}
+
 .ourteam {
 position: absolute;
 width: 264px;
@@ -267,4 +276,12 @@ line-height: 42px;
 text-align: center;
 letter-spacing: 0.03em;    
 color: #212121;    
+}
+.team {
+position: absolute;
+width: 1600px;
+height: 648px;
+left: 0px;
+top: 1449px;
+background: #F5F4FA;
 }
