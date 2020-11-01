@@ -230,7 +230,7 @@ position: absolute;
 width: 376px;
 height: 42px;
 left: 612px;
-top: 969px;
+top: 869px;
 font-family: Roboto;
 font-style: normal;
 font-weight: bold;
@@ -240,6 +240,28 @@ text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
 text-overflow: clip;
+}
+.p {
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */    
+text-align: center;
+letter-spacing: 0.03em;    
+color: #212121;
+}
+.p2 {
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */    
+text-align: center;
+letter-spacing: 0.03em;    
+color: #757575;
 }
 .coding {
 position: absolute;
@@ -270,8 +292,23 @@ background: url(creative-artist-web-design-with-working-colour-selection-graphic
 width: 1600px;
 height: 648px;
 left: 0px;
-margin-top: 1449px;
+margin-top: 1353px;
 background: #F5F4FA;
+}
+.ourteam {
+position: absolute;
+width: 264px;
+height: 42px;
+left: 668px;
+top: 1443px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+text-align:center;
+letter-spacing: 0.03em;
+color: #212121;
 }
 .igor {
 position: absolute;
@@ -341,12 +378,12 @@ left: 0px;
 top: 2097px;    
 background: #2F303A;
 }
-.adres {
+.adress {
 position: absolute;
 width: 231px;
 height: 21px;
 left: 215px;
-top: 2208px;
+top: 100px;
 font-family: Roboto;
 font-style: normal;
 font-weight: normal;
