@@ -1,3 +1,6 @@
+.font {
+font-family: Roboto;
+}
 .logo { 
 position: absolute;
 width: 145px;
@@ -23,8 +26,6 @@ width: 135px;
 height: 16px;
 left: 1078px;
 top: 32px;
-font-family: Roboto;
-font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 16px;
@@ -38,8 +39,6 @@ width: 122px;
 height: 16px;
 left: 1263px;
 top: 32px;
-font-family: Roboto;
-font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 16px;
@@ -253,6 +252,7 @@ line-height: 36px;
 /* identical to box height, or 200% */    
 letter-spacing: 0.06em;    
 color: #212121;
+margin-left: 24px;
 }
 .p2 {
 font-family: Roboto;
@@ -263,9 +263,7 @@ line-height: 30px;
 /* identical to box height, or 187% */
 letter-spacing: 0.03em;    
 color: #757575;
-}
-.links:hover {
-color: black;
+margin-left: 24px;
 }
 .link1 {
 position: absolute;
@@ -390,6 +388,7 @@ line-height: 31px;
 letter-spacing: 0.03em;
 color: #FFFF;
 text-decoration: none;
+margin-top: 45px;
 }
 .mail2 {
 position: absolute;
@@ -397,8 +396,6 @@ width: 231px;
 height: 21px;
 left: 215px;
 top: 141px;
-font-family: Roboto;
-font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 24px;
@@ -412,8 +409,6 @@ width: 231px;
 height: 21px;
 left: 215px;
 top: 171px;
-font-family: Roboto;
-font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 24px;
@@ -427,12 +422,8 @@ width: 231px;
 height: 21px;
 left: 215px;
 top: 100px;
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
 font-size: 14px;
 line-height: 24px;
-/* or 171% */
 letter-spacing: 0.03em;
 color: #FFFFFF;
 }
