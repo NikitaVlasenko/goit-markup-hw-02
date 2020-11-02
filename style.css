@@ -135,27 +135,22 @@ position: absolute;
 width: 200px;
 height: 50px;
 left: 700px;
-top: 430px;  
+top: 450px;  
 background: #2196F3;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
-position: absolute;
-width: 136px;
-height: 30px;
-left: 732px;
-top: 440px;
+}
+.usluga {
 font-family: Roboto;
 font-style: normal;
 font-weight: bold;
-font-size: 14px;
-line-height: 30px;
+font-size: 16px;
+line-height: 50%;
 /* identical to box height, or 187% */
-display: flex;
 align-items: center;
 text-align: center;
-letter-spacing: 0.02em;
+letter-spacing: 0.06em;
 color: #FFFFFF;
-margin-top: 30px;
 }
 .details {
 position: absolute;
@@ -230,7 +225,7 @@ position: absolute;
 width: 376px;
 height: 42px;
 left: 612px;
-top: 869px;
+top: 970px;
 font-family: Roboto;
 font-style: normal;
 font-weight: bold;
@@ -239,7 +234,7 @@ line-height: 42px;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
-text-overflow: clip;
+white-space: nowrap;
 }
 .p {
 font-family: Roboto;
@@ -263,12 +258,14 @@ text-align: center;
 letter-spacing: 0.03em;    
 color: #757575;
 }
+.wedo > img {
+top: 1100px;
+}
 .coding {
 position: absolute;
 width: 370px;
 height: 294px;
 left: 215px;
-top: 1061px;
 background: url(close-up-image-programer-working-his-desk-office_1098-18707.jpg);
 mix-blend-mode: normal;
 }
@@ -277,7 +274,6 @@ position: absolute;
 width: 370px;
 height: 294px;
 left: 615px;
-top: 1061px;
 background: url(web-ui-designers-are-developing-application-smartphones-team-creators-is-working-interface-mobile-phones_8119-2713.jpg);
 }
 .colorise {
@@ -285,7 +281,6 @@ position: absolute;
 width: 370px;
 height: 294px;
 left: 1015px;
-top: 1061px;
 background: url(creative-artist-web-design-with-working-colour-selection-graphic-tablet_35674-1119.jpg);
 }
 .teammates {
@@ -300,7 +295,7 @@ position: absolute;
 width: 264px;
 height: 42px;
 left: 668px;
-top: 1443px;
+top: 1473px;
 font-family: Roboto;
 font-style: normal;
 font-weight: bold;
@@ -309,6 +304,7 @@ line-height: 42px;
 text-align:center;
 letter-spacing: 0.03em;
 color: #212121;
+white-space: nowrap;
 }
 .igor {
 position: absolute;
