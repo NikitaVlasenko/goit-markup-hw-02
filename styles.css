@@ -20,6 +20,54 @@ text-decoration: none;
 span {
  color: #2196F3;
 }
+.studio {
+position: absolute;
+width: 49px;
+height: 16px;
+left: 453px;
+top: 32px;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #212121;
+text-decoration: none;
+}
+.studio:hover {
+color: #2196F3;
+}
+.current {
+position: absolute;
+width: 77px;
+height: 16px;
+left: 552px;
+top: 32px;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #000000;
+text-decoration: none;
+}
+.current:hover {
+ color: #2196F3;
+}
+.contacts {
+position: absolute;
+width: 68px;
+height: 16px;
+left: 679px;
+top: 32px;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #212121;
+text-decoration: none;
+}
+.contacts:hover {
+color: #2196F3;
+}
 .mail {
 position: absolute;
 width: 135px;
@@ -166,59 +214,20 @@ top: 174px;
 background: #F5F4FA;
 border-radius: 4px;
 }
-.studio {
-position: absolute;
-width: 49px;
-height: 16px;
-left: 453px;
-top: 32px;
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
+.p {
+font-weight: bold;
+font-size: 18px;
+line-height: 36px;   
+letter-spacing: 0.06em;    
 color: #212121;
-text-decoration: none;
+margin-left: 24px;
 }
-.studio:hover {
-color: #2196F3;
-}
-.current {
-position: absolute;
-width: 77px;
-height: 16px;
-left: 552px;
-top: 32px;
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-color: #000000;
-text-decoration: none;
-}
-.current:hover {
-color: #2196F3;
-}
-.contacts {
-position: absolute;
-width: 68px;
-height: 16px;
-left: 679px;
-top: 32px;
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-color: #212121;
-text-decoration: none;
-}
-.contacts:hover {
-color: #2196F3;
+.p2 {
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.03em;    
+color: #757575;
+margin-left: 24px;
 }
 .section {
 font-family: Roboto;
@@ -242,28 +251,6 @@ color: #FFFFFF;
 .button-market:hover {
 background-color: #2196F3;
 color: #FFFFFF;
-}
-.p {
-font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 36px;
-/* identical to box height, or 200% */    
-letter-spacing: 0.06em;    
-color: #212121;
-margin-left: 24px;
-}
-.p2 {
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 30px;
-/* identical to box height, or 187% */
-letter-spacing: 0.03em;    
-color: #757575;
-margin-left: 24px;
 }
 .link1 {
 position: absolute;
