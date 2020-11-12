@@ -1,259 +1,60 @@
-.font {
-font-family: Roboto;
+html {
+font-family: Roboto, Raleway;
+color: black;
+width: 1600px;
+height: 252px;
 }
-.logo { 
-position: absolute;
-width: 145px;
-height: 31px;
-left: 215px;
-top: 24px;
+a {
+text-decoration: none;
+}
+header {
+width: 1600px;
+height: 80px;
+background: #FFFFFF;;
+}
+.logo {
 font-family: Raleway;
 font-style: normal;
 font-weight: bold;
+color: #000;
+width: 145px;
+height: 31px;
 font-size: 26px;
 line-height: 31px;
-/* identical to box height */
-letter-spacing: 0.03em;
-color: black;
-text-decoration: none;
 }
-span {
- color: #2196F3;
-}
-.studio {
-position: absolute;
-width: 49px;
-height: 16px;
-left: 453px;
-top: 32px;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-color: #212121;
-text-decoration: none;
-}
-.studio:hover {
+.logo span {
 color: #2196F3;
 }
-.current {
-position: absolute;
-width: 77px;
-height: 16px;
-left: 552px;
-top: 32px;
+nav a {
+font-family: Roboto;
+font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 16px;
-letter-spacing: 0.02em;
-color: #000000;
-text-decoration: none;
-}
-.current:hover {
- color: #2196F3;
-}
-.contacts {
-position: absolute;
-width: 68px;
-height: 16px;
-left: 679px;
-top: 32px;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
+letter-spacing: 0.02em;    
 color: #212121;
-text-decoration: none;
 }
-.contacts:hover {
+nav a:hover {
 color: #2196F3;
 }
 .mail {
-position: absolute;
-width: 135px;
-height: 16px;
-left: 1078px;
-top: 32px;
+font-family: Roboto;
+font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
 color: #757575;
-text-decoration: none;
 }
-.tel {
-position: absolute;
-width: 122px;
-height: 16px;
-left: 1263px;
-top: 32px;
+.telephone {
+font-family: Roboto;
+font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.01em;
 color: #757575;
-text-decoration: none;
 }
-.button-all {
-position: absolute;
-width: 29px;
-height: 26px;
-left: 517px;
-top: 180px;    
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 26px;
-/* identical to box height, or 162% */
-text-align: center;
-letter-spacing: 0.03em;
-color: #000000;
-/*background*/
-position: absolute;
-width: 73px;
-height: 38px;
-left: 495px;
-top: 174px;
-/* shadow-middle */
-border-radius: 4px;
+main {
+background: #E5E5E5;
 }
-.button-sites { 
-position: absolute;
-width: 84px;
-height: 26px;
-left: 598px;
-top: 180px;
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 26px;
-/* identical to box height, or 162% */
-text-align: center;
-letter-spacing: 0.03em;
-color: #212121;
-/*background*/
-position: absolute;
-width: 128px;
-height: 38px;
-left: 576px;
-top: 174px;
-background: #F5F4FA;
-border-radius: 4px;
-}
-.button-apps {
-position: absolute;
-width: 101px;
-height: 26px;
-left: 734px;
-top: 180px;
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 26px;
-/* identical to box height, or 162% */
-text-align: center;
-letter-spacing: 0.03em;
-color: #212121;
-/*background*/
-position: absolute;
-width: 145px;
-height: 38px;
-left: 712px;
-top: 174px;
-background: #F5F4FA;
-border-radius: 4px;
-}
-.button-design {
-position: absolute;
-width: 59px;
-height: 26px;
-left: 887px;
-top: 180px;
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 26px;
-/* identical to box height, or 162% */
-text-align: center;
-letter-spacing: 0.03em;
-color: #212121;
-/*background*/
-position: absolute;
-width: 103px;
-height: 38px;
-left: 865px;
-top: 174px;
-background: #F5F4FA;
-border-radius: 4px;
-}
-.button-market {
-position: absolute;
-width: 86px;
-height: 26px;
-left: 998px;
-top: 180px;
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 26px;
-/* identical to box height, or 162% */
-text-align: center;
-letter-spacing: 0.03em;
-color: #212121;
-/*background*/
-position: absolute;
-width: 130px;
-height: 38px;
-left: 976px;
-top: 174px;
-background: #F5F4FA;
-border-radius: 4px;
-}
-.p {
-font-weight: bold;
-font-size: 18px;
-line-height: 36px;   
-letter-spacing: 0.06em;    
-color: #212121;
-margin-left: 24px;
-}
-.p2 {
-font-size: 16px;
-line-height: 30px;
-letter-spacing: 0.03em;    
-color: #757575;
-margin-left: 24px;
-}
-.font {
-font-family: Roboto;
-}
-.button-all:hover {
-background-color: #2196F3;
-color: #FFFFFF;
-}
-.button-sites:hover {
-background-color: #2196F3;
-color: #FFFFFF;
-}
-.button-apps:hover {
-background-color: #2196F3;
-color: #FFFFFF;
-}
-.button-design:hover {
-background-color: #2196F3;
-color: #FFFFFF;
-}
-.button-market:hover {
-background-color: #2196F3;
-color: #FFFFFF;
-}
-.link1 {
-position: absolute;
+main li {
 width: 370px;
 height: 404px;
 left: 215px;
@@ -261,154 +62,45 @@ top: 262px;
 background: #FFFFFF;
 border: 1px solid #EEEEEE;
 box-sizing: border-box;
-text-decoration: none;
 }
-.link2 {
-position: absolute;
-width: 370px;
-height: 404px;
-left: 615px;
-top: 262px;    
-background: #FFFFFF;
-border: 1px solid #EEEEEE;
-box-sizing: border-box;
-text-decoration: none;
+.name {
+font-weight: bold;
+font-size: 18px;
+line-height: 36px;    
+letter-spacing: 0.06em;    
+color: #212121;
 }
-.link3 {
-position: absolute;
-width: 370px;
-height: 404px;
-left: 1015px;
-top: 262px;  
-background: #FFFFFF;
-border: 1px solid #EEEEEE;
-box-sizing: border-box;
-text-decoration: none;
+p {
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: #757575;
 }
-.link4 {
-position: absolute;
-width: 370px;
-height: 404px;
-left: 215px;
-top: 696px;   
-background: #FFFFFF;
-border: 1px solid #EEEEEE;
-box-sizing: border-box;
-text-decoration: none;
+button {
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+background: #F5F4FA;
+outline: 0px;
 }
-.link5 {
-position: absolute;
-width: 370px;
-height: 404px;
-left: 615px;
-top: 696px;
-background: #FFFFFF;
-border: 1px solid #EEEEEE;
-box-sizing: border-box;
-text-decoration: none;
+button:hover {
+background: #2196F3;
+color: #FFFFFF;
 }
-.link6 {
-position: absolute;
-width: 370px;
-height: 404px;
-left: 1015px;
-top: 696px; 
-background: #FFFFFF;
-border: 1px solid #EEEEEE;
-box-sizing: border-box;
-text-decoration: none;
-}
-.link7 {
-position: absolute;
-width: 370px;
-height: 404px;
-left: 215px;
-top: 1130px;  
-background: #FFFFFF;
-border: 1px solid #EEEEEE;
-box-sizing: border-box;
-text-decoration: none;
-}
-.link8 {
-position: absolute;
-width: 370px;
-height: 404px;
-left: 615px;
-top: 1130px;    
-background: #FFFFFF;
-border: 1px solid #EEEEEE;
-box-sizing: border-box;
-text-decoration: none;
-}
-.link9 {
-position: absolute;
-width: 370px;
-height: 404px;
-left: 1015px;
-top: 1130px;    
-background: #FFFFFF;
-border: 1px solid #EEEEEE;
-box-sizing: border-box;
-text-decoration: none;
-}
-.footer {
-position: absolute;
+footer {
 width: 1600px;
 height: 252px;
 left: 0px;
 top: 1628px;
 background: #2F303A;
-color: #FFFFFF
 }
-.logo2 {
-position: absolute;
-width: 145px;
-height: 31px;
-left: 215px;
-top: 24px;
-font-family: Raleway;
+footer p {
+font-family: Roboto;
 font-style: normal;
-font-weight: bold;
-font-size: 26px;
-line-height: 31px;
-/* identical to box height */
-letter-spacing: 0.03em;
-color: #FFFF;
-text-decoration: none;
-margin-top: 45px;
-}
-.mail2 {
-position: absolute;
-width: 231px;
-height: 21px;
-left: 215px;
-top: 141px;
-font-weight: 500;
-font-size: 14px;
-line-height: 24px;
-letter-spacing: 0.03em;
-color: #757575;
-text-decoration: none;
-}
-.tel2 {
-position: absolute;
-width: 231px;
-height: 21px;
-left: 215px;
-top: 171px;
-font-weight: 500;
-font-size: 14px;
-line-height: 24px;
-letter-spacing: 0.01em;
-color: #757575;
-text-decoration: none;
-}
-.adres {
-position: absolute;
-width: 231px;
-height: 21px;
-left: 215px;
-top: 100px;
 font-size: 14px;
 line-height: 24px;
 letter-spacing: 0.03em;
