@@ -15,28 +15,32 @@ text-decoration: none;
 header {
 width: 1600px;
 height: 80px;
-background: #FFFFFF;;
+background: #FFFFFF;
+}
+.nav-link {
+width: 294px;
+height: 16px;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+margin: 32px 453px 853px;
 }
 .logo {
 font-family: Raleway;
 font-style: normal;
 font-weight: bold;
+font-size: 26px;
 color: #000;
+position: absolute;
 width: 145px;
 height: 31px;
-font-size: 26px;
-line-height: 31px;
-margin-top: 24px;
-margin-left: 215px;
+left: 215px;
+top: 24px;
 }
 .logo span {
 color: #2196F3;
 }
 nav a {
-display: flex;
-align-items: flex-start;
-justify-content: space-evenly;
-flex-flow: row nowrap;
 font-family: Roboto;
 font-style: normal;
 font-weight: 500;
@@ -48,15 +52,15 @@ color: #212121;
 nav a:hover {
 color: #2196F3;
 }
-.mail {
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-color: #757575;
-margin-right: 215px;
+.feedback {
+    width: 257px;
+    height: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start ;
+    margin: 32px 331px 215px;
 }
-.telephone {
+.feedback a {
 font-family: Roboto;
 font-style: normal;
 font-weight: 500;
@@ -67,12 +71,6 @@ main {
 background: #E5E5E5;
 }
 .items {
-    display: flex;
-    align-items: flex-start;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-content: space-around;
 }
 main li {
 width: 370px;
@@ -112,7 +110,6 @@ background: #2196F3;
 color: #FFFFFF;
 }
 footer {
-    position: absolute;
 width: 1600px;
 height: 252px;
 left: 0px;
