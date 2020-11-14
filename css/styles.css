@@ -52,20 +52,26 @@ color: #212121;
 nav a:hover {
 color: #2196F3;
 }
-.feedback {
-    width: 257px;
-    height: 16px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start ;
-    margin: 32px 331px 215px;
-}
-.feedback a {
+.contact-links a {
 font-family: Roboto;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
 color: #757575;
+}
+.mail-top {
+position: absolute;
+width: 135px;
+height: 16px;
+left: 1078px;
+top: 32px;
+}
+.tel-top {
+position: absolute;
+width: 122px;
+height: 16px;
+left: 1263px;
+top: 32px;
 }
 main {
 background: #E5E5E5;
@@ -108,6 +114,11 @@ outline: 0px;
 button:hover {
 background: #2196F3;
 color: #FFFFFF;
+}
+.buttons-nav {
+    box-sizing:border-box;
+display: flex;
+
 }
 footer {
 width: 1600px;
