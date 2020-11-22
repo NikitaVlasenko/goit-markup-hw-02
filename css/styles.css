@@ -21,6 +21,11 @@ border-bottom: 1px solid #ECECEC;
 }
 .navigation {
 display: flex;
+width: 611px;
+height: 54px;
+}
+.options {
+display: inline-block;
 flex-direction: row;
 justify-content: center;
 margin-left: 495px;
@@ -29,8 +34,6 @@ margin-top: 174px;
 }
 button {
 margin: 8px;
-}
-.navigation span {
 font-family: Roboto;
 font-style: normal;
 font-weight: 500;
@@ -39,10 +42,13 @@ line-height: 26px;
 text-align: center;
 letter-spacing: 0.03em;
 color:#212121;
+border: #F5F4FA;
+border-radius: 4px;
+min-width: 73px;
 }
-.navigation button :hover { 
-background: #2196F3;
-color: #FFFFFF;
+.navigation button:hover {
+color:#FFFFFF;
+background:#2196F3 ;
 }
 .nav-link {
 width: 294px;
@@ -113,7 +119,8 @@ border: 1px solid #EEEEEE;
 box-sizing: border-box;
 }
 .groups {
-margin: 50px 215px 94px 215px;   
+margin: 50px 215px 94px 215px;
+padding: 0px;
 }
 .group1 {
 display: flex;
@@ -161,18 +168,15 @@ font-style: normal;
 font-weight: bold;
 font-size: 26px;
 line-height: 31px;
-/* identical to box height */
 letter-spacing: 0.03em;
 color: #2196F3;
-width: 145px;
-height: 31px;
-left: 215px;
-top: 1688px;
+margin: 60px 1240px 161px 215px;
+position: absolute;
 }
 .logo-foot span {
 color: #FFFFFF;
 }
-footer {
+.footer-container {
 width: 1600px;
 height: 252px;
 left: 0px;
@@ -186,4 +190,10 @@ font-size: 14px;
 line-height: 24px;
 letter-spacing: 0.03em;
 color: #FFFFFF;
+}
+.adress {
+position: absolute;
+width: 231px;
+height: 81px;
+margin: 111px 1154px 60px 215px;
 }
