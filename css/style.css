@@ -1,13 +1,55 @@
 :root {
 --main-color: #000000;
+--color-blue : #2196F3;
+--color-grey : #757575;
+--color-white : #ffffff;
 font-family: Roboto;
 }
 a {
 text-decoration: none;
 }
+.navigation a {
+color: var(--main-color)
+}
+nav a:hover {
+color: var(--color-blue)
+}
 .logo {
 font-family: Raleway;
+color: var(--main-color)
+}
+.logo span {
+color: var(--color-blue)
+}
+.logo p {
+color: var(--color-white)
 }
 .contacts a {
-color:#757575;
+color: var(--color-contact)
+}
+.order span {
+color: var(--color-white)
+}
+.order {
+font-weight: bold;
+font-size: 16px;
+line-height: 30px;
+}
+.properties p {
+font-size: 14px;
+font-weight: bold;
+}
+.team p {
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+}
+p {
+color: var(--main-color)
+}
+span {
+color: var(--color-grey)
+}
+footer p {
+color: var(--color-white)
 }
