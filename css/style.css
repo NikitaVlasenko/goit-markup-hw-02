@@ -3,6 +3,10 @@ padding: 0;
 margin: 0;
 box-sizing: border-box;
  }
+html {
+width: 1600px;
+height: 2349px;
+ }
 :root {
 --main-color: #000000;
 --color-blue : #2196F3;
@@ -190,33 +194,39 @@ width: 370px;
 height: 294px;
 }
 .team {
-position: absolute;
 width: 1600px;
 height: 648px;
-left: 0px;
-top: 1449px;
+margin-top: 1449px;
 background-color: var(--color-lightgrey)
 }
 .team h3 {
-    font-weight: bold;
+font-weight: bold;
 font-size: 36px;
 line-height: 42px;
 line-height: 42px;
 text-align: center;
 letter-spacing: 0.03em;
-margin: 94px 668px 512px 668px;
+width: 264px;
+height: 42px;
+left: 668px;
+top: 1543px;
 }
 .members {
+width: 270px;
+height: 368px;
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
+margin-bottom: 346px;
 background: var(--color-white)
 }
 .teammates {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    position: absolute;
-    flex-wrap: wrap;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+flex-flow: row wrap;
+width: 1170px;
+height: 368px;
+margin: 186px 215px 94px 215px;
 }
 .team p {
 font-weight: bold;
@@ -246,8 +256,8 @@ top: 2097px;
 background-color: var(--color-deepblue);
 }
 .logo-foot {
-    margin: 60px 1240px 161px 215px;
-    position: absolute;
+margin: 60px 1240px 161px 215px;
+position: absolute;
 }
 .logo-foot p {
 display: inline;
@@ -276,4 +286,9 @@ height: 600px;
 left: 0px;
 top: 80px;
 background-color: var(--color-deepblue);
+}
+.contacts {
+width: 231px;
+height: 81px;
+margin: 111px 1154px 60px 215px;
 }
