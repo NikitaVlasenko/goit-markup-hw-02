@@ -36,20 +36,14 @@ justify-content: space-evenly;
 margin: 32px 453px 853px;
 }
 .navigation a {
-color: var(--main-color)
-}
-.navigation a {
 font-weight: 500;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
+color: var(--main-color)
 }
 nav a:hover {
 color: var(--color-blue)
-}
-.logo {
-font-family: Raleway;
-color: var(--main-color)
 }
 .logo {
 font-weight: bold;
@@ -60,6 +54,8 @@ width: 145px;
 height: 31px;
 left: 215px;
 top: 24px;
+font-family: Raleway;
+color: var(--main-color)
 }
 .logo span {
 color: var(--color-blue)
@@ -80,15 +76,6 @@ color: var(--color-white)
 .logo-foot span {
 color: var(--color-blue);
 }
-.contacts a {
-color: var(--color-grey)
-}
-.contacts a {
-font-size: 14px;
-}
-.contacts a:hover {
-color: var(--color-blue);
-}
 .mail-top {
 position: absolute;
 width: 135px;
@@ -103,8 +90,15 @@ height: 16px;
 left: 1263px;
 top: 32px;
 }
-.order span {
-color: var(--color-white)
+.links-top {
+display: flex;
+}
+.links-top a {
+font-size: 14px;
+color: var(--color-grey)
+}
+.links-top a:hover {
+color: var(--color-blue);
 }
 .order {
 font-weight: bold;
@@ -113,6 +107,17 @@ line-height: 30px;
 position: absolute;
 margin: 350px 700px 200px 700px;
 background: var(--color-blue);
+}
+.order span {
+color: var(--color-white)
+}
+.buy {
+position: absolute;
+width: 1600px;
+height: 600px;
+left: 0px;
+top: 80px;
+background-color: var(--color-deepblue);
 }
 button {
 width: 200px;
@@ -194,6 +199,7 @@ width: 370px;
 height: 294px;
 }
 .team {
+display: flex;
 width: 1600px;
 height: 648px;
 margin-top: 1449px;
@@ -203,23 +209,23 @@ background-color: var(--color-lightgrey)
 font-weight: bold;
 font-size: 36px;
 line-height: 42px;
-line-height: 42px;
-text-align: center;
 letter-spacing: 0.03em;
 width: 264px;
 height: 42px;
-left: 668px;
-top: 1543px;
+margin-left: 668px;
+margin-top: 94px;
 }
 .members {
+text-align: center;
 width: 270px;
 height: 368px;
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
-margin-bottom: 346px;
+margin-bottom: 94px;
 background: var(--color-white)
-}
+} 
 .teammates {
+position: absolute;
 display: flex;
 flex-direction: column;
 justify-content: space-around;
@@ -230,6 +236,8 @@ margin: 186px 215px 94px 215px;
 }
 .team p {
 font-weight: bold;
+margin-top: 30px;
+margin-bottom: 10px;
 font-size: 16px;
 line-height: 19px;
 }
@@ -248,7 +256,7 @@ span {
 color: var(--color-grey)
 }
 .footer-container {
-position: absolute;
+display: flex;
 width: 1600px;
 height: 252px;
 left: 0px;
@@ -257,38 +265,34 @@ background-color: var(--color-deepblue);
 }
 .logo-foot {
 margin: 60px 1240px 161px 215px;
-position: absolute;
 }
 .logo-foot p {
 display: inline;
 color: var(--color-white);
 }
-footer article {
-margin: 20px 1154px 9px 215px;
-color: var(--color-white)
-}
-.mail-foot {
-width: 231px;
-height: 21px;
-left: 215px;
-top: 2238px;
-}
-.tel-foot {
-width: 231px;
-height: 21px;
-left: 215px;
-top: 2268px;
-}
-.buy {
-position: absolute;
-width: 1600px;
-height: 600px;
-left: 0px;
-top: 80px;
-background-color: var(--color-deepblue);
-}
 .contacts {
+position: absolute;
+display: block;
 width: 231px;
 height: 81px;
-margin: 111px 1154px 60px 215px;
+margin-top: 111px;
+margin-left: 215px;
+margin-bottom: 60px;
+}
+.contacts p {
+margin-top: 20px;
+color: var(--color-white)
+}
+.contacts a {
+font-size: 14px;
+color: var(--color-grey)
+}
+.contacts a:hover {
+color: var(--color-blue);
+}
+.footer-links {
+margin-bottom: 60px;
+}
+.footer-links li {
+margin-top: 9px;
 }
