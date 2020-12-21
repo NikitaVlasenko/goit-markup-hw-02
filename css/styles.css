@@ -29,13 +29,10 @@ display: flex;
 border-bottom: 1px solid #ECECEC;
 }
 .navigation {
-position: absolute;
-display: inline-block;
 flex-direction: row;
-justify-content: flex-start;
 width: 611px;
 height: 54px;
-margin: 94px 494px 34px 495px;
+margin: 94px 280px 34px 280px;
 }
 .all {
 width: 73px;
@@ -56,6 +53,14 @@ height: 38px;
 .marketing {
 width: 130px;
 height: 38px;
+}
+button {
+font-family: Roboto;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+border-style: none;
+background-color: var(--color-lightgrey);
 }
 .navigation button:hover {
 color:var(--color-white);
@@ -133,7 +138,7 @@ box-sizing: border-box;
 background: var(--color-lightgrey)
 }
 .groups {
-margin: 50px 215px 94px 215px;
+margin: 0px 215px 94px 215px;
 padding: 0px;
 }
 .group1 {
@@ -141,7 +146,7 @@ display: flex;
 flex-direction: row;
 justify-content: space-between;
 flex-wrap: wrap;
-margin: 0px 0px 30px 0px;
+margin: 34px 0px 30px 0px;
 }
 .group2 {
 display: flex;
@@ -184,13 +189,14 @@ font-size: 26px;
 line-height: 31px;
 letter-spacing: 0.03em;
 color:var(--color-blue);
-margin: 60px 1240px 161px 215px;
+margin: 60px 1240px 0px 215px;
 position: absolute;
 }
 .logo-foot span {
 color:var(--color-white);
 }
 .footer-container {
+display: flex;
 width: 1600px;
 height: 252px;
 left: 0px;
@@ -207,7 +213,14 @@ color:var(--color-white);
 }
 .adress {
 position: absolute;
+display: block;
 width: 231px;
 height: 81px;
 margin: 111px 1154px 60px 215px;
+}
+.contact-links li {
+margin-top: 9px;
+} 
+.adress p {
+color: var(--color-white)
 }
